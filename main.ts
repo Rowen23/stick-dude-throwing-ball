@@ -1,7 +1,7 @@
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
-    assets.animation`walking`,
+    assets.animation`ball throwing`,
     500,
     true
     )
@@ -10,7 +10,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
-    assets.animation`myAnim`,
+    assets.animation`walking`,
     200,
     false
     )
